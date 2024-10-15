@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <h1>FORMULARIOS EN HTML</h1>
+    <hr>
+
+
+    <form action="" method="get">
+
+        <fieldset>
+
+            <legend align="center">Datos Personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"
+            placeholder="Ingrese su nombre" value="Oscar"  minlength="3" maxlength="10" size="10" readonly>
+
+            <br><br>
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="usuario" autofocus pattern="[A-Za-z]{3,10}" title="Debe contener de 3 a 10 caracteres alfabéticos">
+
+            <br><br>
+
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass">
+
+            <br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" name="email" id="email">
+
+            <br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad">
+
+
+        </fieldset>
+
+        <br><br>
+
+        <label for="tel">Telefono:</label>
+        <input type="tel" name="tel" id="tel" 
+        
+        <br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="Introduce la dirección Web">
+
+        <br><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+
+        <br><br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" id="hora">
+
+        <br><br>
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" id="sexo" value="hombre"> <b>Hombre</b>
+        <input type="radio" name="sexo" id="sexo" value="mujer"> <b>Mujer</b>
+
+        <br><br>
+
+        <label for="hobbies">Pasatiempos:</label>
+        <br>
+
+        <input type="checkbox" name="programar" id="hobbies" value="Programar"> <b>Programar</b>
+
+        <input type="checkbox" name="hobbies" id="hobbies" value="PingPong"> <b>PingPong</b>
+
+        <input type="checkbox" name="hobbies" id="hobbies" value="Leer"> <b>Leer</b>
+
+        <input type="checkbox" name="hobbies" id="hobbies" value="Deportes"> <b>Deportes</b>
+
+        <br><br>
+
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+
+        <br><br>
+
+        <label for="file">Subir archivo:</label>
+        <input type="file" name="file" id="file">
+
+        <br><br>
+
+        <input type="button" value="Clikqueame" onclick="alert('Feliz Cumpleaños')"onmouseover="alert('Suavemente')">
+        
+        <br></br>
+
+        <input type="image" src="img/papel.png" alt="Enviar" width="10%" onclick="alert('Mundo Web')">
+
+        <br><br>
+
+        <label for="browser">Navegador de preferencia</label>
+        <input type="text" name="browser" id="browser" list="browsers">
+        
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Safari"></option>
+            <option value="Edge"></option>
+            <option value="Opera"></option>
+        </datalist>
+
+        <br><br>
+
+        <label for="mes">Mes de ingreso:</label>
+        <input type="month" name="mes" id="mes">
+
+        <br><br>
+
+        <label for="inten">Intensidad (0 - 50):</label>
+        <input type="range" name="inten" id="inten" min="0" max="50" step="2">
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar Todo">
+
+        <br><br>
+
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" rows="10" cols="40" placeholder="Hazme saber tus comentarios"></textarea>
+
+        <br><br>
+
+        <label for="ciudadnac">Ciudad de Nacimiento:</label>
+        <select name="ciudadnac" id="ciudadnac" multiple>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Bogota" selected>Bogota</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Pereira" >Pereira</option>
+            <option value="Cali">Cali</option>
+        </select>
+
+        <input type="hidden" name="categoria" value="backend">
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:rgb(211, 211, 211);
+}
+form{
+    background-color: rgb(203, 209, 239);
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 40%;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+fieldset{
+    height: 500px;
+    padding: 50px;
+    border: 5px;
+}
+button{
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgb(23, 23, 238);
+}
+textarea{
+    background-color: #E8F0FE;
+}
+select{
+    background-color: #E8F0FE;
+}
+input{
+    background-color: #E8F0FE;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_Formularios</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+
+            <legend>Indique sus preferencias por favor</legend>
+
+            <label for="Fecha">Elija una Fecha:</label>
+            <input type="date" name="Fecha" id="Fecha">
+            <br>
+            <label for="Arch">Elija un fichero</label>
+            <input type="file" name="Archivo" id="arch">
+            <br>
+            <label for="process"></label>
+            <input type="radio" name="procesador" id="process" value="AMD"> <b>AMD</b>
+            <input type="radio" name="procesador" id="process" value="Intel i5"> <b>Intel i5</b>
+            <input type="radio" name="procesador" id="process" value="Intel i7"> <b>Intel i7</b>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <label for="mat"></label>
+
+            <input type="radio" name="Materia" id="mat" value="Matemáticas"><b>Matemáticas</b>
+
+            <input type="radio" name="Materia" id="mat" value="Matemáticas"><b>Historia</b>
+
+            <input type="radio" name="Materia" id="mat" value="Matemáticas"><b>Geografía</b>
+
+            <input type="radio" name="Materia" id="mat" value="Matemáticas"><b>Lengua</b>
+
+            <br>
+
+            <label for="Name">Nombre</label>
+            <input type="text" name="Nombre" id="Name" pattern="[A-Za-z]{3,20}">
+
+            <br>
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" name="Apellidos" id="Apellidos" pattern="[A-Za-z]{3,30}">
+
+            <br>
+
+            <label for="Adress">Dirección:</label>
+            <input type="text" name="Direccion" id="Adress" title="ejemplo = cra12A #22-37">
+
+            <br><br>
+
+            <label for="Color">Elija un color:</label>
+            <input type="color" name="Color" id="color">
+
+            <label for="comentarios"></label>
+            <br>
+            <textarea name="comentarios" id="comentarios" rows="10" cols="50" placeholder="Utilice este cuadro para escribir"></textarea>
+
+            <br>
+
+            <label for="FechaPre">Elija una Fecha:</label>
+            <input type="date" name="FechaPre" id="FechaPre">
+
+            <br>
+
+            <label for="Idioma">Elija Su Idioma</label>
+            <select name="Idioma" id="Idioma" >
+                <option value="Ingles">Ingles</option>
+                <option value="Frances" selected>Frances</option>
+                <option value="Español">Español</option>
+                <option value="Italiano" >Italiano</option>
+                <option value="Portugués">Portugués</option>
+            </select>
+            
+            <br>
+
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora">
+
+            <br>
+
+            <label for="Arch2">Elija un fichero</label>
+            <input type="file" name="Archivo2" id="arch2">
+
+            <br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="checkbox" name="sexo" id="sexo" value="hombre"> <b>Hombre</b>
+            <input type="checkbox" name="sexo" id="sexo" value="mujer"> <b>Mujer</b>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+</body>
+</html>

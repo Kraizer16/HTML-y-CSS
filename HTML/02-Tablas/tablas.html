@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <hr>
+
+    <table border="3" width="50%" cellspacing="10"
+    cellpading="10" bgcolor="#2874a6" bordercolor="#7b241c"
+    align="center">
+        <tr bgcolor="#f9e79f">
+            <th colspan="2">Celda 1</th>
+            <!-- <th>Celda 2</th> -->
+            <th>Celda 3</th>
+        </tr>
+
+        <tr align="right" bgcolor="#2c3e50">
+            <th>Celda 4</th>
+            <td rowspan="2">Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+
+        <tr align="left">
+            <th>Celda 7</th>
+            <!-- <td align="center">Celda 8</td> -->
+            <td align="right">Celda 9</td>
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <table border="2" cellpadding="" cellspacing="0" width="30%" height="90"  align="center">
+        <tr>
+            <th colspan="2" >A, B  colspan</th>
+            <th rowspan="2">C, F</th>
+        </tr>
+        <tr>
+            <th>D</th>
+            <th>E</th>
+        </tr>
+    </table>
+
+    <hr>
+    <table border="1" width="50%" cellpadding="20">
+        <thead>
+            <tr>
+                <th>Tipo Dato A</th>
+                <th>Tipo Dato B</th>
+                <th>Tipo Dato C</th>
+            </tr>
+        </thead>
+
+        <tbody align="center">
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot align="center">
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr><br>
+
+    <table border="1" width="28%" cellpadding="0" cellspacing="0" align="center">
+        <thead bgcolor="#a93226 ">
+            <th>País</th>
+            <th>Capital</th>
+        </thead>
+
+        <tbody bgcolor="#f9e79f">
+            <tr>
+                <td>México</td>
+                <td>Cd. de México</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>Otawa</td>
+            </tr>
+            
+        </tbody>
+        
+        <tfoot bgcolor="#f9e79f">
+            <tr>
+                <td>Estados Unidos</td>
+                <td>Washingthon</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <hr><br>
+
+    <table border="1" align="center" cellspacing="0">
+        <thead bgcolor="#f9e79f">
+            <th colspan="2">
+                Partes de la computadora
+            </th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="5" bgcolor="#2c3e50" cellpadding="">PARTES</td>
+                <td bgcolor="#f9e79f">Dispositivos de entrada</td>
+            </tr>
+            <tr bgcolor="#f9e79f">
+                <td>
+                    Dispositivos de salida
+                </td>
+            </tr>
+            <tr bgcolor="#f9e79f">
+                <td>
+                    CPU (Procesador) <br>ALU <br>Unidad de control
+                </td>
+            </tr>
+            <tr bgcolor="#f9e79f">
+                <td>
+                    Menu Principal
+                </td>
+            </tr bgcolor="#f9e79f">
+            <tr bgcolor="#f9e79f">
+                <td>
+                    Memoria Secundaria
+                </td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
