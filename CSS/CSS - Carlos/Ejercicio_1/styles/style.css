@@ -1,0 +1,43 @@
+*{
+    border: 5px;
+}
+body{
+    margin: 20px;
+    font-style:initial;
+    font-size: 45px;
+}
+p{
+    text-shadow: 2px 2px 2px yellow;
+    margin: 0;
+}
+.contenedor{
+    border-style: solid;
+    border-color: red;
+    width: auto;
+    height: auto;
+}
+.caja1{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+    border-style: solid;
+    border-color: green;
+}
+.caja2{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 50%;
+    border-style: solid;
+    border-color: blue;
+}
+.caja3{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 50%;
+    border-style: solid;
+    border-color: yellow;
+}
+.puntos{
+    text-align: center;
+    margin-bottom: 150px;
+}
