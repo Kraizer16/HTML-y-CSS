@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sizing</title>
+    <style>
+        .caja-roja{
+            box-sizing: border-box;
+            background-color: red;
+            color: white;
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 5px solid tomato;
+            margin-bottom: 5px;
+            /* display: inline-block; */
+        }
+        #Caja1{
+            /* display: none; */
+            /* visibility: hidden; */
+            opacity: 0.1;
+        }
+        #Caja2{
+            background-color: plum;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja-roja" id="Caja1">Caja 2</div>
+    <div class="caja-roja" id="Caja2">Caja 2</div>
+</body>
+</html>

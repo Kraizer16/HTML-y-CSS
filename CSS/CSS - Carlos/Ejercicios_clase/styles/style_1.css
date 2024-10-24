@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+}
+p{
+    padding-top: 40px;
+}
+.uno{
+    width: 300px;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+
+.dos{
+    width: 3.125in;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+
+.tres{
+    width: 7.94cm;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+.cuatro{
+    width: 18.75pc;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+.cinco{
+    width: 79.37mm;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+.seis{
+    width: 224.99pt;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}
+.siete{
+    width: 317.5q;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    margin: 10px;
+}

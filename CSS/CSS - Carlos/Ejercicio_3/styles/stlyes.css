@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+div{
+    background-color: aqua;
+    margin: 3px;
+}

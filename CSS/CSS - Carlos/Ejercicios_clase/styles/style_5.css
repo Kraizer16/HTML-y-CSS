@@ -1,0 +1,8 @@
+.element{
+    background: indigo;
+    color: #eee;
+    font-family: "Victor Mono", monospace;
+    font-size: 2rem;
+    height: 2lh;
+    line-height: 120%;
+}

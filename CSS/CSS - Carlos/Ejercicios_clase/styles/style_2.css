@@ -1,0 +1,9 @@
+*{
+    font-size: 32px;
+}
+p{
+    color: white;
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+}

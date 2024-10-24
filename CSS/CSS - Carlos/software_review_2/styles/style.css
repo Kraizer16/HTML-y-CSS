@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, white, gray);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    height: 100vh;
+}
+.texto{
+    border-radius: 5px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-color: #2c3e50;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+p{
+    text-align: justify;
+}
+.hamburguesa{
+    display: grid;
+    background-color: orange;
+    border-radius: 100%;
+    grid-column: 1 / span 1;
+    grid-row: 3 / 3;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+    place-items: center;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+.azul1{
+    background-color: #2c3e50;
+    border-radius: 100%;
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+}
+.naranja1{
+    background-color: orange;
+    border-radius: 100%;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+}
+.bicicleta{
+    display: grid;
+    background-color: #2c3e50;
+    border-radius: 100%;
+    grid-column: 3 / 3;
+    grid-row: 2 /  2;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+    place-items: center;
+}
+.mando{
+    display: grid;
+    background-color: #9fa8b1;
+    border-radius: 100%;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+    place-items: center;
+}
+.megafono{
+    display: grid;
+    background-color: #9fa8b1;
+    border-radius: 100%;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+    place-items: center;
+}
+.bug{
+    display: grid;
+    background-color: #9fa8b1;
+    border-radius: 100%;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+    place-items: center;
+}
+.azul2{
+    background-color: #2c3e50;
+    border-radius: 100%;
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+    width: 90%;
+    height: 90%;
+    place-self: center;
+}
+
+/* 768px - 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        height: 100%;
+        gap: 1px;
+    }
+    .naranja1{
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+    }
+    .bicicleta{
+        grid-column: 2 / span 1;
+        grid-row: 4 / 4;
+    }
+    .mando{
+        grid-column: 1 / span 1;
+        grid-row: 5 / 5;
+    }
+    .megafono{
+        grid-column: 2 / span 1;
+        grid-row: 5 / 5;
+    }
+    .bug{
+        grid-column: 1 / span 1;
+        grid-row: 6 / 6;
+    }
+    .azul2{
+        grid-column: 2 / span 1;
+        grid-row: 6 / 6;
+    }
+
+}
+
+/* 0 - 768px */
+
+@media (max-width: 768px) {
+    body{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        height: 100%;
+        gap: 1px;
+    }
+    .texto{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+    .hamburguesa{
+        grid-column: 1 / 1;
+        grid-row: 2/ 2;
+    }
+    .azul1{
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+    .naranja1{
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+    }
+    .bicicleta{
+        grid-column: 1 / 1;
+        grid-row: 5 / 5;
+    }
+    .mando{
+        grid-column: 1 / 1;
+        grid-row: 6 / 6;
+    }
+    .megafono{
+        grid-column: 1 / 1;
+        grid-row: 7 / 7;
+    }
+    .bug{
+        grid-column: 1 / 1;
+        grid-row: 8 / 8;
+    }
+    .azul2{
+        grid-column: 1 / 1;
+        grid-row: 9 / 9;
+    }
+
+}

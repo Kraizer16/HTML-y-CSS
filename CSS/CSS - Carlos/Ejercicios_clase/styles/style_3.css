@@ -1,0 +1,9 @@
+.container{
+    font-size: 32px;
+}
+.element{
+    color: white;
+    width: 32px;
+    height: 64px;
+    background-color: blue;
+}
